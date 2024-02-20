@@ -1,0 +1,14 @@
+.items-total {
+  display: flex;
+  align-items: center;
+}
+
+#item-total {
+  display: inline;
+  margin: 0 10px;
+}
+
+button:active {
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination Clone</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="items-per-page">
+        <label for="items-per-page">Items per page:</label>
+        <select name="items-per-page" id="items-per-page">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20">25</option>
+        </select>
+      </div>
+      <hr />
+      <div class="items-total">
+        <p id="items-range">1 - 5 of</p>
+        <input id="item-total" type="number" value="200" />
+      </div>
+      <hr />
+      <div class="pagination-nav">
+        <button id="first-page-button"><<</button>
+        <button id="prev-page-button"><</button>
+        <button id="next-page-button">></button>
+        <button id="last-page-button">>></button>
+      </div>
+      <hr />
+      <div id="pagination-short"></div>
+      <hr />
+      <div id="pagination-full"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
